@@ -15,5 +15,9 @@
     Store your answer in d
     print your final answer
     */
+   for(int i; i<5; ++i) {
+      d += a[i] * b[i];
+      printf("Dot product of 2 vectors = %f\n", d);
+   }
     return 0;
  }
