@@ -4,6 +4,7 @@
 int main( void ) {
 
     char charArray[5] = {'h','e','l','l','o'};
+    //修改：char charArray[6] = {'h','e','l','l','o','\0'};
     char charString[] = "hello";
  
     printf("As array: %s\n",charArray);     // strange behaviour?

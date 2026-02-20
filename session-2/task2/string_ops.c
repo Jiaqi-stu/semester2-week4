@@ -12,12 +12,14 @@ int main( void ) {
     char str3[100];
 
     // use printf to verify the following tests
-
     // use 'strcmp' to compare 2 strings - print the return value
-
+    int result = strcmp(str1, str2);
+    printf("strcmp(str1, str2) result = %d\n", result);
     // use 'strcat' to concatenate 2 strings - print the resulting string
-
+    strcat(str1, str2);
+    printf("strcat(str1, str2) = %s\n", str1);
     // use 'strcpy' to copy a string into str3 - print string 3
-
+    strcpy(str3, str1);
+    printf("strcpy(str3, str1) = %s\n", str3);
     return 0;
 }
